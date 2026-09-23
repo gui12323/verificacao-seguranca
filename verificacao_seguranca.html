@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Verificação de Segurança</title>
+<style>
+body{margin:0;background:#080b10;color:#e8edf2;font-family:Arial,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.box{width:min(520px,90%);background:#111720;border:1px solid #394452;border-radius:14px;padding:28px;box-shadow:0 0 40px #000}
+.red{color:#ff4d4d}.bar{height:8px;background:#252d37;border-radius:8px;overflow:hidden;margin:18px 0}.fill{height:100%;width:100%;background:#ff3333}
+small{color:#8f9baa}.terminal{background:#070a0e;border-radius:9px;padding:15px;font-family:monospace;font-size:13px;line-height:1.7;margin-top:18px}
+button{margin-top:18px;width:100%;padding:12px;border:0;border-radius:8px;background:#ff3b30;color:white;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="red">● ALERTA DE SEGURANÇA</div>
+  <h1>VOCÊ FOI HACKEADO(A)! 😱</h1>
+  <p>Uma transferência de <b>R$ 9.847,32</b> para <b>Guilherme Lucas</b> está sendo processada...</p>
+  <div class="bar"><div class="fill"></div></div>
+  <div class="terminal">
+    &gt; verificando conexão... OK<br>
+    &gt; acessando sistema bancário... OK<br>
+    &gt; iniciando transferência... 100%<br>
+    &gt; destino: Guilherme Lucas<br>
+    &gt; status: CONCLUÍDO
+  </div>
+  <button onclick="alert('😂 PEGADINHA! Nada foi hackeado e nenhum dinheiro foi transferido.')">VER DETALHES</button>
+  <p><small>Esta é uma simulação/pegadinha. Nenhum dado, conta ou dinheiro é acessado.</small></p>
+</div>
+</body>
+</html>
